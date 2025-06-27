@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Câu hỏi</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
     <script>
@@ -11,7 +12,6 @@
             const buttons = el.parentElement.querySelectorAll('button');
             const iconEl = el.parentElement.querySelector('.icon');
 
-            // Apply color styles and disable all buttons
             buttons.forEach(btn => {
                 btn.disabled = true;
                 const correct = btn.getAttribute('data-correct') === 'true';
@@ -19,10 +19,8 @@
             });
             el.classList.add(isCorrect ? 'bg-green-500' : 'bg-red-500');
 
-            // Show ✅ or ❌
             if (iconEl) iconEl.textContent = isCorrect ? '✅' : '❌';
 
-            // Reset after 5 seconds
             setTimeout(() => {
                 buttons.forEach(btn => {
                     btn.disabled = false;
@@ -34,11 +32,17 @@
     </script>
 
     <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Roboto', sans-serif;
             background-color: #f9fafb;
             margin: 0;
-            padding: 2rem;
+            padding: 1rem;
             display: flex;
             justify-content: center;
         }
@@ -47,13 +51,13 @@
             width: 100%;
             max-width: 900px;
             background: #ffffff;
-            padding: 2rem;
+            padding: 1.5rem;
             border-radius: 1rem;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             margin-bottom: 1.5rem;
             text-align: center;
             color: #111827;
@@ -66,6 +70,7 @@
         .question p {
             font-weight: 600;
             margin-bottom: 1rem;
+            line-height: 1.6;
         }
 
         .btn {
@@ -78,6 +83,7 @@
             background-color: #f3f4f6;
             cursor: pointer;
             transition: background 0.2s ease, transform 0.1s ease;
+            font-size: 1rem;
         }
 
         .btn:hover:not(:disabled) {
@@ -117,7 +123,6 @@
             display: inline-block;
             width: 1rem;
             color: #22c55e;
-            /* default to green */
         }
 
         .icon:empty {
@@ -128,6 +133,26 @@
         .bg-red-500~.icon,
         .bg-red-200~.icon {
             color: #ef4444;
+        }
+
+        /* Mobile adjustments */
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .btn {
+                font-size: 0.95rem;
+                padding: 0.65rem 0.8rem;
+            }
+
+            .question p {
+                font-size: 0.95rem;
+            }
         }
     </style>
 </head>
@@ -140,7 +165,7 @@
         <div class="question">
             <p>
                 <span class="icon" style="margin-right: 0.5rem;"></span>
-                <strong>Câu {{ loop.index }}: {{ q.content }}</strong>
+                <span class="question-text"><strong>Câu {{ loop.index }}: {{ q.content }}</strong></span>
             </p>
             {% for a in q.details %}
             <button onclick="selectAnswer(this)" data-correct="{{ 'true' if a.isRightAnswer else 'false' }}"
