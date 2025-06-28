@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thi thử MOF - 40 câu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9fafb;
+            margin: 0;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main-wrapper {
+            width: 100%;
+            max-width: 900px;
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            color: #111827;
+        }
+
+        .question {
+            margin-bottom: 2rem;
+        }
+
+        .question p {
+            font-weight: 600;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .btn {
+            padding: 0.75rem 1rem;
+            margin-bottom: 0.5rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            width: 100%;
+            text-align: left;
+            background-color: #f3f4f6;
+            cursor: pointer;
+            transition: background 0.2s ease, transform 0.1s ease;
+            font-size: 1rem;
+        }
+
+        .btn:hover:not(:disabled) {
+            background-color: #9ab9ea;
+            transform: translateY(-1px);
+        }
+
+        .btn:disabled {
+            cursor: default;
+        }
+
+        .bg-green-200 {
+            background-color: #bbf7d0;
+        }
+
+        .bg-blue-200 {
+            background-color: #9ab9ea;
+        }
+
+        .bg-green-500 {
+            background-color: #22c55e;
+            color: white;
+        }
+
+        .bg-red-200 {
+            background-color: #fecaca;
+        }
+
+        .bg-red-500 {
+            background-color: #ef4444;
+            color: white;
+        }
+
+        .submit-wrapper {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        #submitBtn {
+            padding: 0.75rem 2rem;
+            background-color: #3b82f6;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        #submitBtn:hover {
+            background-color: #2563eb;
+        }
+
+        #scoreDisplay {
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            color: #111827;
+        }
+
+        .nav-btn {
+            display: inline-block;
+            margin: 0 0.5rem;
+            padding: 0.6rem 1.2rem;
+            background-color: #e5e7eb;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 500;
+            color: #111827;
+            transition: background-color 0.2s ease;
+        }
+
+        .nav-btn:hover {
+            background-color: #d1d5db;
+        }
+
+        hr {
+            margin: 2rem 0;
+            border: none;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        @media (max-width: 768px) {
+            .btn {
+                font-size: 0.95rem;
+                padding: 0.65rem 0.8rem;
+            }
+
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .nav-btn {
+                margin-top: 1rem;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <h1>Thi thử MOF (40 câu ngẫu nhiên)</h1>
+        <a href="/" class="nav-btn">← Quay lại ôn tập</a>
+
+        <form id="examForm">
+            {% for q in questions %}
+            {% set questionIndex = loop.index0 %}
+            <div class="question-block" data-index="{{ questionIndex }}">
+                <div class="question">
+                    <p><strong>Câu {{ loop.index }}: {{ q.content }}</strong></p>
+
+                    {% for a in q.details %}
+                    <button type="button" class="btn" data-correct="{{ 'true' if a.isRightAnswer else 'false' }}"
+                        data-index="{{ questionIndex }}" onclick="selectAnswer(this)">
+                        {{ a.content }}
+                    </button>
+                    {% endfor %}
+                </div>
+                <hr />
+            </div>
+            {% endfor %}
+
+        </form>
+
+        <div class="submit-wrapper">
+            <button type="button" id="submitBtn" onclick="submitExam()">Nộp bài</button>
+            <div id="scoreDisplay"></div>
+        </div>
+
+        <div class="submit-wrapper" style="margin-top: 2rem;">
+            <a href="/" class="nav-btn">← Quay lại ôn tập</a>
+            <a href="/exam" class="nav-btn">🔄 Làm lại thi thử</a>
+        </div>
+    </div>
+
+    <script>
+        const selectedAnswers = new Map();
+
+        function selectAnswer(el) {
+            const questionIndex = parseInt(el.getAttribute('data-index'), 10);
+            const buttons = el.parentElement.querySelectorAll('button');
+
+            // Clear old selection
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-blue-200', 'bg-red-500', 'bg-green-500');
+            });
+
+            // Add highlight to current
+            el.classList.add('bg-blue-200');
+
+            // Save selection
+            selectedAnswers.set(questionIndex, el);
+        }
+
+        function submitExam() {
+            let correctCount = 0;
+
+            document.querySelectorAll('.question-block').forEach(block => {
+                const questionIndex = parseInt(block.getAttribute('data-index'), 10);
+                const buttons = block.querySelectorAll('button');
+                const selectedButton = selectedAnswers.has(questionIndex) ? selectedAnswers.get(questionIndex) : null;
+                let correctButton = null;
+
+                buttons.forEach(btn => {
+                    const isCorrect = btn.getAttribute('data-correct') === 'true';
+
+                    // Reset all styles
+                    btn.classList.remove('bg-blue-200', 'bg-green-200', 'bg-green-500', 'bg-red-500');
+
+                    if (isCorrect) {
+                        correctButton = btn;
+                    }
+
+                    btn.disabled = true;
+                });
+
+                if (correctButton) {
+                    correctButton.classList.add('bg-green-200');
+                }
+
+                if (selectedButton) {
+                    const isCorrect = selectedButton.getAttribute('data-correct') === 'true';
+                    if (isCorrect) {
+                        selectedButton.classList.add('bg-green-500');
+                        correctCount++;
+                    } else {
+                        selectedButton.classList.add('bg-red-500');
+                    }
+                }
+            });
+
+            document.getElementById('scoreDisplay').textContent = `Điểm: ${correctCount} / 40`;
+            document.getElementById('submitBtn').disabled = true;
+        }
+
+    </script>
+</body>
+
+</html>

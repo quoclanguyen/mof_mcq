@@ -6,35 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Câu hỏi</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
-    <script>
-        function selectAnswer(el) {
-            const isCorrect = el.getAttribute('data-correct') === 'true';
-            const buttons = el.parentElement.querySelectorAll('button');
-            const iconEl = el.parentElement.querySelector('.icon');
-
-            buttons.forEach(btn => {
-                btn.disabled = true;
-                const correct = btn.getAttribute('data-correct') === 'true';
-                btn.classList.add(correct ? 'bg-green-200' : 'bg-red-200');
-            });
-            el.classList.add(isCorrect ? 'bg-green-500' : 'bg-red-500');
-
-            if (iconEl) iconEl.textContent = isCorrect ? '✅' : '❌';
-
-            setTimeout(() => {
-                buttons.forEach(btn => {
-                    btn.disabled = false;
-                    btn.classList.remove('bg-green-200', 'bg-green-500', 'bg-red-200', 'bg-red-500');
-                });
-                if (iconEl) iconEl.textContent = '';
-            }, 5000);
-        }
-    </script>
-
     <style>
-        *,
-        *::before,
-        *::after {
+        * {
             box-sizing: border-box;
         }
 
@@ -47,9 +20,12 @@
             justify-content: center;
         }
 
-        .container {
+        .main-wrapper {
             width: 100%;
-            max-width: 900px;
+            max-width: 1200px;
+        }
+
+        .container {
             background: #ffffff;
             padding: 1.5rem;
             border-radius: 1rem;
@@ -63,7 +39,57 @@
             color: #111827;
         }
 
-        .question {
+        .paging-panel,
+        .paging-nav {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .page-btn,
+        .paging-nav button {
+            padding: 0.5rem 1rem;
+            border: none;
+            background-color: #f3f4f6;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .exam-btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            color: #e5e7eb;
+            background-color: #9b1818;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.2s;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .page-btn:hover,
+        .paging-nav button:hover {
+            background-color: #e5e7eb;
+        }
+
+        #page-indicator {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            font-weight: 600;
+        }
+
+        #page-indicator-bottom {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            font-weight: 600;
+        }
+
+        .question-block {
             margin-bottom: 2rem;
         }
 
@@ -123,6 +149,7 @@
             display: inline-block;
             width: 1rem;
             color: #22c55e;
+            margin-right: 0.5rem;
         }
 
         .icon:empty {
@@ -135,16 +162,7 @@
             color: #ef4444;
         }
 
-        /* Mobile adjustments */
-        @media (max-width: 600px) {
-            .container {
-                padding: 1rem;
-            }
-
-            h1 {
-                font-size: 1.25rem;
-            }
-
+        @media (max-width: 768px) {
             .btn {
                 font-size: 0.95rem;
                 padding: 0.65rem 0.8rem;
@@ -153,30 +171,233 @@
             .question p {
                 font-size: 0.95rem;
             }
+
+            h1 {
+                font-size: 1.25rem;
+            }
+        }
+
+        #scrollToTopBtn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            padding: 0.7rem 1rem;
+            background-color: #22c55e;
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            display: none;
+            font-size: 1rem;
+            z-index: 1000;
+            transition: opacity 0.3s ease;
+        }
+
+        #scrollToTopBtn:hover {
+            background-color: #16a34a;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 20% auto;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .modal-buttons {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .modal-buttons button {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        .modal-buttons button:first-child {
+            background-color: #22c55e;
+            color: white;
+        }
+
+        .modal-buttons button:last-child {
+            background-color: #ef4444;
+            color: white;
         }
     </style>
 </head>
+<div id="confirmModal" class="modal">
+    <div class="modal-content">
+        <p>Bạn có chắc muốn cuộn lên đầu trang?</p>
+        <div class="modal-buttons">
+            <button onclick="confirmScrollToTop(true)">Có</button>
+            <button onclick="confirmScrollToTop(false)">Không</button>
+        </div>
+    </div>
+</div>
 
 <body>
-    <div class="container">
-        <h1>Câu hỏi</h1>
+    <div class="main-wrapper">
+        <div class="container">
+            <h1>Ôn tập thi chứng chỉ MOF 594 câu</h1>
+            <div>
+                <form action="/exam" method="get">
+                    <button class="exam-btn" type="submit">Thi thử (40 câu)</button>
+                </form>
+            </div>
+            <div class="paging-panel">
+                <button class="page-btn" onclick="goToPage(0)">1–100</button>
+                <button class="page-btn" onclick="goToPage(1)">101–200</button>
+                <button class="page-btn" onclick="goToPage(2)">201–300</button>
+                <button class="page-btn" onclick="goToPage(3)">301–400</button>
+                <button class="page-btn" onclick="goToPage(4)">401–500</button>
+                <button class="page-btn" onclick="goToPage(5)">501–594</button>
+            </div>
 
-        {% for q in questions %}
-        <div class="question">
-            <p>
-                <span class="icon" style="margin-right: 0.5rem;"></span>
-                <span class="question-text"><strong>Câu {{ loop.index }}: {{ q.content }}</strong></span>
-            </p>
-            {% for a in q.details %}
-            <button onclick="selectAnswer(this)" data-correct="{{ 'true' if a.isRightAnswer else 'false' }}"
-                class="btn">
-                {{ a.content }}
-            </button>
+            <div class="paging-nav">
+                <button onclick="prevPage()">← Trước</button>
+                <span id="page-indicator">Trang 1</span>
+                <button onclick="nextPage()">Tiếp →</button>
+            </div>
+
+            {% for q in questions %}
+            <div class="question-block" data-index="{{ loop.index }}">
+                <div class="question">
+                    <p>
+                        <span class="icon"></span>
+                        <strong>Câu {{ loop.index }}: {{ q.content }}</strong>
+                    </p>
+                    {% for a in q.details %}
+                    <button onclick="selectAnswer(this)" data-correct="{{ 'true' if a.isRightAnswer else 'false' }}"
+                        class="btn">
+                        {{ a.content }}
+                    </button>
+                    {% endfor %}
+                </div>
+                <hr />
+            </div>
             {% endfor %}
+            <div class="paging-nav">
+                <button onclick="prevPage()">← Trước</button>
+                <span id="page-indicator-bottom">Trang 1</span>
+                <button onclick="nextPage()">Tiếp →</button>
+            </div>
+            <div class="paging-panel">
+                <button class="page-btn" onclick="goToPage(0)">1–100</button>
+                <button class="page-btn" onclick="goToPage(1)">101–200</button>
+                <button class="page-btn" onclick="goToPage(2)">201–300</button>
+                <button class="page-btn" onclick="goToPage(3)">301–400</button>
+                <button class="page-btn" onclick="goToPage(4)">401–500</button>
+                <button class="page-btn" onclick="goToPage(5)">501–594</button>
+            </div>
         </div>
-        <hr />
-        {% endfor %}
     </div>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">↑ Lên đầu</button>
+    <script>
+        // Show scroll-to-top button when user scrolls 25% down
+        window.addEventListener('scroll', () => {
+            const btn = document.getElementById('scrollToTopBtn');
+            const scrollPercent = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+            btn.style.display = scrollPercent > 0.25 ? 'block' : 'none';
+        });
+
+        function scrollToTop() {
+            document.getElementById('confirmModal').style.display = 'block';
+        }
+
+        function confirmScrollToTop(confirm) {
+            document.getElementById('confirmModal').style.display = 'none';
+            if (confirm) {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+
+
+        const ranges = [
+            [1, 100],
+            [101, 200],
+            [201, 300],
+            [301, 400],
+            [401, 500],
+            [501, 594]
+        ];
+        const totalPages = ranges.length;
+        let currentPage = 0;
+
+        function goToPage(page) {
+            currentPage = page;
+            const [from, to] = ranges[page];
+
+            document.querySelectorAll('.question-block').forEach(block => {
+                const index = parseInt(block.getAttribute('data-index'), 10);
+                block.style.display = (index >= from && index <= to) ? 'block' : 'none';
+            });
+
+            document.querySelectorAll('.page-btn').forEach((btn, i) => {
+                btn.style.backgroundColor = (i === page) ? '#d1d5db' : '#f3f4f6';
+            });
+
+            document.getElementById('page-indicator').textContent = `Trang ${page + 1}`;
+            document.getElementById('page-indicator-bottom').textContent = `Trang ${page + 1}`;
+            window.scrollTo(0, 0);
+        }
+
+        function prevPage() {
+            if (currentPage > 0) goToPage(currentPage - 1);
+        }
+
+        function nextPage() {
+            if (currentPage < totalPages - 1) goToPage(currentPage + 1);
+        }
+
+        function selectAnswer(el) {
+            const isCorrect = el.getAttribute('data-correct') === 'true';
+            const buttons = el.parentElement.querySelectorAll('button');
+            const iconEl = el.parentElement.querySelector('.icon');
+
+            buttons.forEach(btn => {
+                btn.disabled = true;
+                const correct = btn.getAttribute('data-correct') === 'true';
+                btn.classList.add(correct ? 'bg-green-200' : 'bg-red-200');
+            });
+
+            el.classList.add(isCorrect ? 'bg-green-500' : 'bg-red-500');
+
+            if (iconEl) iconEl.textContent = isCorrect ? '✅' : '❌';
+
+            setTimeout(() => {
+                buttons.forEach(btn => {
+                    btn.disabled = false;
+                    btn.classList.remove('bg-green-200', 'bg-green-500', 'bg-red-200', 'bg-red-500');
+                });
+                if (iconEl) iconEl.textContent = '';
+            }, 10000);
+        }
+
+        window.onload = () => {
+            goToPage(0);
+        };
+    </script>
 </body>
 
 </html>
