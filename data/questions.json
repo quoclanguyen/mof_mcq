@@ -4752,6 +4752,950 @@
     "score": 1
   },
   {
+    "id": "G22_147",
+    "content": "Theo pháp luật Việt Nam về kinh doanh bảo hiểm, phát biểu nào sau đây là đúng nhất trong việc xây dựng, thiết kế, phát triển và cung cấp sản phẩm bảo hiểm nhân thọ của doanh nghiệp bảo hiểm nhân thọ?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_147_1",
+        "content": "Doanh nghiệp bảo hiểm nhân thọ được chủ động, tự chịu trách nhiệm trong việc xây dựng, thiết kế và phát triển sản phẩm bảo hiểm.",
+        "questionId": "G22_147",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_147_2",
+        "content": "Ngôn ngữ sử dụng trong quy tắc, điều khoản bảo hiểm phải chính xác, cách diễn đạt đơn giản, dễ hiểu.",
+        "questionId": "G22_147",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_147_3",
+        "content": "Doanh nghiệp bảo hiểm phải đăng ký và được Bộ Tài chính chấp thuận phương pháp, cơ sở tính phí bảo hiểm của các sản phẩm bảo hiểm.",
+        "questionId": "G22_147",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_147_4",
+        "content": "A, B, C đúng.",
+        "questionId": "G22_147",
+        "isRightAnswer": true
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_148",
+    "content": "Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, phát biểu nào sau đây là đúng nhất khi nói về điều kiện đối với tổ chức hoạt động đại lý bảo hiểm không phải là tổ chức tín dụng, chi nhánh ngân hàng nước ngoài?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_148_1",
+        "content": "Tổ chức phải có tối thiểu 3 nhân viên trực tiếp thực hiện hoạt động đại lý bảo hiểm.",
+        "questionId": "G22_148",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_148_2",
+        "content": "Tổ chức phải thành lập bộ phận chuyên trách để thực hiện hoạt động đại lý bảo hiểm.",
+        "questionId": "G22_148",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_148_3",
+        "content": "Có quy trình giám sát việc tuân thủ nguyên tắc hoạt động đại lý bảo hiểm theo quy định của Luật Kinh doanh bảo hiểm đối với nhân viên trong tổ chức thực hiện hoạt động đại lý bảo hiểm.",
+        "questionId": "G22_148",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_148_4",
+        "content": "A, C đúng.",
+        "questionId": "G22_148",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_148_5",
+        "content": "A, B, C đúng.",
+        "questionId": "G22_148",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_149",
+    "content": "Chọn phương án đúng nhất: Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, trường hợp tổ chức hoạt động đại lý bảo hiểm là tổ chức tín dụng và chi nhánh ngân hàng nước ngoài thì tổ chức hoạt động đại lý bảo hiểm này phải?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_149_1",
+        "content": "Thành lập bộ phận chuyên trách để thực hiện hoạt động đại lý bảo hiểm.",
+        "questionId": "G22_149",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_149_2",
+        "content": "Có người đứng đầu bộ phận chuyên trách thực hiện hoạt động đại lý bảo hiểm phải có tối thiểu 03 năm kinh nghiệm làm việc trong lĩnh vực tài chính, ngân hàng, bảo hiểm và có bằng tốt nghiệp từ đại học trở lên về chuyên ngành bảo hiểm. Trường hợp không có bằng tốt nghiệp từ đại học trở lên về chuyên ngành bảo hiểm thì phải có bằng tốt nghiệp từ đại học trở lên về chuyên ngành khác và chứng chỉ bảo hiểm theo quy định của Bộ Tài chính.",
+        "questionId": "G22_149",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_149_3",
+        "content": "Đảm bảo tại mỗi chi nhánh của tổ chức tín dụng thực hiện hoạt động đại lý bảo hiểm có tối thiểu 3 nhân viên được đào tạo và có chứng chỉ đại lý bảo hiểm phù hợp với loại hình bảo hiểm mà tổ chức tín dụng làm đại lý.",
+        "questionId": "G22_149",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_149_4",
+        "content": "A, B, C đúng.",
+        "questionId": "G22_149",
+        "isRightAnswer": true
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_150",
+    "content": "Chọn phương án đúng nhất: Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, người thụ hưởng của hợp đồng bảo hiểm nhân thọ là?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_150_1",
+        "content": "Cá nhân từ đủ 18 tuổi trở lên có năng lực hành vi dân sự đầy đủ tại thời điểm giao kết hợp đồng bảo hiểm.",
+        "questionId": "G22_150",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_150_2",
+        "content": "Người được bên mua bảo hiểm chỉ định để nhận tiền bảo hiểm theo thỏa thuận tại hợp đồng bảo hiểm cá nhân.",
+        "questionId": "G22_150",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_150_3",
+        "content": "Người được người được bảo hiểm trong hợp đồng bảo hiểm nhóm chỉ định để nhận tiền bảo hiểm theo thỏa thuận tại hợp đồng bảo hiểm nhóm.",
+        "questionId": "G22_150",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_150_4",
+        "content": "B, C đúng.",
+        "questionId": "G22_150",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_150_5",
+        "content": "A, B, C đúng.",
+        "questionId": "G22_150",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_151",
+    "content": "Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, phát biểu nào sau đây là đúng nhất khi nói về quyền lợi bảo hiểm, phạm vi bảo hiểm?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_151_1",
+        "content": "Quyền lợi bảo hiểm, phạm vi bảo hiểm và các điều khoản loại trừ phải được thể hiện rõ trong quy tắc, điều kiện, điều khoản bảo hiểm.",
+        "questionId": "G22_151",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_151_2",
+        "content": "Quyền lợi bảo hiểm có đảm bảo và các quyền lợi không đảm bảo (nếu có) phải được thể hiện rõ trong hợp đồng bảo hiểm.",
+        "questionId": "G22_151",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_151_3",
+        "content": "Quyền lợi bảo hiểm rủi ro, cách xác định quyền lợi đầu tư, mức lãi suất cam kết tối thiểu (đối với sản phẩm bảo hiểm liên kết chung, sản phẩm bảo hiểm hưu trí) phải được thể hiện rõ trong các hợp đồng bảo hiểm thuộc nghiệp vụ bảo hiểm liên kết đầu tư, bảo hiểm hưu trí.",
+        "questionId": "G22_151",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_151_4",
+        "content": "A, B, C đúng.",
+        "questionId": "G22_151",
+        "isRightAnswer": true
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_152",
+    "content": "Chọn phương án đúng nhất: Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, trường hợp quy tắc, điều kiện, điều khoản bảo hiểm có quy định quyền lợi thương tật toàn bộ vĩnh viễn do bị tổn thương cơ thể từ 81% trở lên thì quyền lợi này được xem xét chi trả khi?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_152_1",
+        "content": "Có xác nhận của cơ quan y tế hoặc Hội đồng giám định y khoa cấp quận, huyện trở lên.",
+        "questionId": "G22_152",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_152_2",
+        "content": "Có xác nhận của cơ quan y tế hoặc Hội đồng giám định y khoa cấp tỉnh, thành phố trực thuộc trung ương.",
+        "questionId": "G22_152",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_152_3",
+        "content": "Có xác nhận của tổ chức giám định y tế hợp pháp được doanh nghiệp bảo hiểm chấp thuận.",
+        "questionId": "G22_152",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_152_4",
+        "content": "A, C đúng.",
+        "questionId": "G22_152",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_152_5",
+        "content": "B, C đúng.",
+        "questionId": "G22_152",
+        "isRightAnswer": true
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_153",
+    "content": "Chọn phương án đúng nhất: Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, trường hợp quy tắc, điều kiện, điều khoản bảo hiểm có quy định về quyền lợi thương tật toàn bộ vĩnh viễn thì quyền lợi này được xem xét chi trả trong trường hợp?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_153_1",
+        "content": "Người được bảo hiểm bị mất, liệt hoàn toàn và không thể phục hồi được chức năng của: hai tay; hoặc hai chân; hoặc một tay và một chân; hoặc hai mắt; hoặc một tay và một mắt; hoặc một chân và một mắt.",
+        "questionId": "G22_153",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_153_2",
+        "content": "Người được bảo hiểm bị tổn thương cơ thể từ 81% trở lên theo xác nhận của cơ quan y tế hoặc Hội đồng giám định y khoa cấp tỉnh, thành phố trực thuộc trung ương.",
+        "questionId": "G22_153",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_153_3",
+        "content": "Người được bảo hiểm bị tổn thương cơ thể từ 81% trở lên theo xác nhận của tổ chức giám định y tế hợp pháp được doanh nghiệp bảo hiểm chấp thuận.",
+        "questionId": "G22_153",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_153_4",
+        "content": "A, B đúng.",
+        "questionId": "G22_153",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_153_5",
+        "content": "A, B, C đúng.",
+        "questionId": "G22_153",
+        "isRightAnswer": true
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_154",
+    "content": "Chọn phương án đúng nhất: Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, trường hợp quy tắc, điều kiện, điều khoản của hợp đồng bảo hiểm nhân thọ có quy định việc tạm ứng từ giá trị hoàn lại thì mức lãi suất tính cho phần tạm ứng từ giá trị hoàn lại phải đáp ứng quy định sau?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_154_1",
+        "content": "Không được vượt quá lãi suất tích lũy do doanh nghiệp bảo hiểm công bố cho khách hàng cộng với 2%.",
+        "questionId": "G22_154",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_154_2",
+        "content": "Trường hợp không công bố lãi suất tích lũy, mức lãi suất tạm ứng từ giá trị hoàn lại không được vượt quá lãi suất đầu tư của quỹ chủ hợp đồng không tham gia chia lãi trong năm tài chính liền kề trước đó cộng với 2%. ",
+        "questionId": "G22_154",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_154_3",
+        "content": "A, B đúng.",
+        "questionId": "G22_154",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_154_4",
+        "content": "A, B sai.",
+        "questionId": "G22_154",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_155",
+    "content": "Chọn phương án đúng nhất: Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, trường hợp quy tắc, điều kiện, điều khoản bảo hiểm có điều khoản quy định về bệnh có sẵn thì việc xác định bệnh có sẵn phải căn cứ vào?.",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_155_1",
+        "content": "Hồ sơ y tế được lưu trữ tại bệnh viện hoặc cơ sở y tế được thành lập hợp pháp.",
+        "questionId": "G22_155",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_155_2",
+        "content": "Các tài liệu y khoa được Bộ Y tế và các cơ quan có thẩm quyền ban hành.",
+        "questionId": "G22_155",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_155_3",
+        "content": "Các thông tin do bên mua bảo hiểm, người được bảo hiểm tự kê khai trên hồ sơ yêu cầu bảo hiểm hoặc phiếu bổ sung thông tin.",
+        "questionId": "G22_155",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_155_4",
+        "content": "A, B, C đúng.",
+        "questionId": "G22_155",
+        "isRightAnswer": true
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_156",
+    "content": "Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, phát biểu sau đây là đúng hay sai về quyền và nghĩa vụ của bên mua bảo hiểm trong hợp đồng bảo hiểm liên kết đầu tư: Bên mua bảo hiểm được quyền linh hoạt đóng phí trong suốt thời hạn hợp đồng bảo hiểm ngoài thời gian đóng phí bắt buộc (nếu có)?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_156_1",
+        "content": "Đúng",
+        "questionId": "G22_156",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_156_2",
+        "content": "Sai",
+        "questionId": "G22_156",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_157",
+    "content": "Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, thời điểm có hiệu lực tạm thời của hợp đồng bảo hiểm nhân thọ là?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_157_1",
+        "content": "Thời điểm hợp đồng bảo hiểm được giao kết giữa doanh nghiệp bảo hiểm và bên mua bảo hiểm.",
+        "questionId": "G22_157",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_157_2",
+        "content": "Ngày bên mua bảo hiểm nộp đầy đủ hồ sơ yêu cầu bảo hiểm và đã đóng đủ phí bảo hiểm (tạm tính) của hợp đồng bảo hiểm nếu bên mua bảo hiểm và người được bảo hiểm còn sống vào thời điểm bản yêu cầu bảo hiểm được doanh nghiệp bảo hiểm nhân thọ chấp thuận.",
+        "questionId": "G22_157",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_157_3",
+        "content": "Ngày bên mua bảo hiểm nộp đầy đủ hồ sơ yêu cầu bảo hiểm cho đại lý bảo hiểm",
+        "questionId": "G22_157",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_158",
+    "content": "Chọn phương án đúng nhất: Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, thời điểm có hiệu lực của hợp đồng bảo hiểm nhân thọ là?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_158_1",
+        "content": "Thời điểm hợp đồng bảo hiểm được giao kết giữa doanh nghiệp bảo hiểm và bên mua bảo hiểm.",
+        "questionId": "G22_158",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_158_2",
+        "content": "Ngày bên mua bảo hiểm nộp đầy đủ hồ sơ yêu cầu bảo hiểm và đã đóng đủ phí bảo hiểm của hợp đồng bảo hiểm nếu bên mua bảo hiểm và người được bảo hiểm còn sống vào thời điểm bản yêu cầu bảo hiểm được doanh nghiệp bảo hiểm nhân thọ chấp thuận.",
+        "questionId": "G22_158",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_158_3",
+        "content": "Ngày doanh nghiệp bảo hiểm nhân thọ phát hành giấy chứng nhận bảo hiểm và bên mua bảo hiểm đã đóng đủ phí bảo hiểm nếu bên mua bảo hiểm và người được bảo hiểm còn sống vào thời điểm doanh nghiệp bảo hiểm nhân thọ phát hành giấy chứng nhận bảo hiểm.",
+        "questionId": "G22_158",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_158_4",
+        "content": "B, C đúng.",
+        "questionId": "G22_158",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_159",
+    "content": "Chọn phương án đúng nhất: Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, tài liệu giới thiệu sản phẩm bảo hiểm thuộc nghiệp vụ bảo hiểm hỗn hợp phải đáp ứng yêu cầu nào sau đây?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_159_1",
+        "content": "Giới thiệu được đặc tính cơ bản của sản phẩm bảo hiểm.",
+        "questionId": "G22_159",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_159_2",
+        "content": "Thể hiện tỷ lệ, mức tối đa của các khoản phí tính cho bên mua bảo hiểm.",
+        "questionId": "G22_159",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_159_3",
+        "content": "Phản ánh trung thực các thông tin cơ bản tại quy tắc, điều kiện, điều khoản của sản phẩm bảo hiểm, nêu rõ các quyền lợi bảo hiểm và loại trừ trách nhiệm bảo hiểm.",
+        "questionId": "G22_159",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_159_4",
+        "content": "A, C đúng.",
+        "questionId": "G22_159",
+        "isRightAnswer": true
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_160",
+    "content": "Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, phát biểu sau đây là đúng hay sai khi nói về quy định phải thực hiện đối với đại lý bảo hiểm cá nhân hoặc nhân viên trong tổ chức hoạt động đại lý trực tiếp thực hiện hoạt động đại lý bảo hiểm khi cung cấp sản phẩm bảo hiểm liên kết đầu tư: \"Thực hiện ghi âm một số nội dung liên quan tới việc tư vấn sản phẩm bảo hiểm tại thời điểm bên mua bảo hiểm ký Bản yêu cầu bảo hiểm. Nội dung ghi âm phải đảm bảo tối thiểu các thông tin theo quy định của pháp luật\"?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_160_1",
+        "content": "Đúng",
+        "questionId": "G22_160",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_160_2",
+        "content": "Sai",
+        "questionId": "G22_160",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_161",
+    "content": "Chọn phương án đúng nhất: Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, việc ghi âm một số nội dung liên quan đến việc tư vấn sản phẩm bảo hiểm liên kết đầu tư phải đảm bảo các yêu cầu?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_161_1",
+        "content": "Thực hiện ghi âm tại thời điểm bên mua bảo hiểm ký Bản yêu cầu bảo hiểm.",
+        "questionId": "G22_161",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_161_2",
+        "content": "Nội dung ghi âm phải đảm bảo tối thiểu các thông tin theo quy định của pháp luật.",
+        "questionId": "G22_161",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_161_3",
+        "content": "Trường hợp có thông tin liên quan đến đời sống riêng tư, bí mật cá nhân thì việc ghi âm phải được bên mua bảo hiểm đồng ý về việc ghi âm nội dung thông tin đó.",
+        "questionId": "G22_161",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_161_4",
+        "content": "A, B, C đúng.",
+        "questionId": "G22_161",
+        "isRightAnswer": true
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_162",
+    "content": "Theo pháp luật Việt Nam về kinh doanh bảo hiểm nhân thọ, phát biểu sau đây là đúng hay sai khi nói về cung cấp sản phẩm bảo hiểm qua đại lý bảo hiểm: \"Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài thực hiện hoạt động đại lý bảo hiểm không được tư vấn, giới thiệu, chào bán, thu xếp việc giao kết hợp đồng bảo hiểm liên kết đầu tư cho các khách hàng trong thời hạn 60 ngày trước và 60 ngày sau ngày giải ngân toàn bộ khoản vay\".",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_162_1",
+        "content": "Đúng",
+        "questionId": "G22_162",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_162_2",
+        "content": "Sai",
+        "questionId": "G22_162",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_163",
+    "content": "Theo pháp luật Việt Nam về kinh doanh bảo hiểm, doanh nghiệp bảo hiểm triển khai sản phẩm bảo hiểm liên kết chung thì phải thành lập bao nhiêu quỹ?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_163_1",
+        "content": "01 quỹ liên kết chung cho tất cả các hợp đồng bảo hiểm liên kết chung.",
+        "questionId": "G22_163",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_163_2",
+        "content": "02 quỹ liên kết chung cho các hợp đồng bảo hiểm liên kết chung.",
+        "questionId": "G22_163",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_163_3",
+        "content": "Tối thiểu 02 quỹ liên kết chung cho các hợp đồng bảo hiểm liên kết chung.",
+        "questionId": "G22_163",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_163_4",
+        "content": "Tối thiểu 03 quỹ liên kết chung cho các hợp đồng bảo hiểm liên kết chung.",
+        "questionId": "G22_163",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_164",
+    "content": "Phát biểu nào sau đây là đúng về quỹ liên kết chung:",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_164_1",
+        "content": "Quỹ liên kết chung được thành lập trước khi hợp đồng bảo hiểm liên kết chung đầu tiên được giao kết và có tổng giá trị duy trì không thấp hơn 50 tỷ đồng Việt Nam.",
+        "questionId": "G22_164",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_164_2",
+        "content": "Quỹ liên kết chung được thành lập sau khi hợp đồng bảo hiểm liên kết chung đầu tiên được giao kết và có tổng giá trị duy trì không thấp hơn 50 tỷ đồng Việt Nam.",
+        "questionId": "G22_164",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_164_3",
+        "content": "Các tài sản hình thành từ quỹ liên kết chung quản lý chung với quỹ chủ sở hữu và các quỹ chủ hợp đồng khác, có tổng giá trị duy trì không thấp hơn 50 tỷ đồng Việt Nam.",
+        "questionId": "G22_164",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_164_4",
+        "content": "Doanh nghiệp bảo hiểm có thể được hoàn lại một phần hoặc toàn bộ số tiền đã đóng góp nếu vẫn đảm bảo tổng giá trị quỹ liên kết chung không thấp hơn 20 tỷ đồng Việt Nam.",
+        "questionId": "G22_164",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_165",
+    "content": "Phát biểu nào sau đây là đúng nhất về bảo hiểm hưu trí:",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_165_1",
+        "content": "Bảo hiểm hưu trí là sản phẩm bảo hiểm cung cấp cho từng cá nhân.",
+        "questionId": "G22_165",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_165_2",
+        "content": "Bảo hiểm hưu trí chỉ cung cấp cho nhóm người lao động (bảo hiểm hưu trí nhóm).",
+        "questionId": "G22_165",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_165_3",
+        "content": "Đối với bảo hiểm hưu trí cho nhóm người lao động (bảo hiểm hưu trí nhóm): Bên mua bảo hiểm là chủ sử dụng lao động, người lao động sẽ được nhận toàn bộ quyền lợi của hợp đồng bảo hiểm sau một thời hạn nhất định theo thỏa thuận giữa các bên và được ghi nhận tại hợp đồng bảo hiểm.",
+        "questionId": "G22_165",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_165_4",
+        "content": "Đối với bảo hiểm hưu trí cho nhóm người lao động (bảo hiểm hưu trí nhóm): Bên mua bảo hiểm là chủ sử dụng lao động sẽ được nhận toàn bộ quyền lợi của hợp đồng bảo hiểm sau một thời hạn nhất định theo thỏa thuận giữa các bên và được ghi nhận tại hợp đồng bảo hiểm.",
+        "questionId": "G22_165",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_166",
+    "content": "Phát biểu nào sau đây là sai khi nói về đặc điểm của bảo hiểm hưu trí:",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_166_1",
+        "content": "Trên cơ sở bên mua bảo hiểm đóng phí bảo hiểm, người được bảo hiểm bắt đầu nhận quyền lợi bảo hiểm hưu trí khi đạt đến tuổi theo thỏa thuận tại hợp đồng bảo hiểm, nhưng không quá 55 tuổi.",
+        "questionId": "G22_166",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_166_2",
+        "content": "Mỗi người được bảo hiểm theo hợp đồng bảo hiểm hưu trí cá nhân hay hợp đồng bảo hiểm hưu trí nhóm có một tài khoản bảo hiểm hưu trí riêng theo quy định.",
+        "questionId": "G22_166",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_166_3",
+        "content": "Cơ cấu phí bảo hiểm của sản phẩm bảo hiểm hưu trí được tách bạch giữa phí đem đi đầu tư và phí ban đầu theo quy định.",
+        "questionId": "G22_166",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_166_4",
+        "content": "B, C đúng.",
+        "questionId": "G22_166",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_167",
+    "content": "Chọn phương án đúng nhất: Theo pháp luật Việt Nam về kinh doanh bảo hiểm, đối với quyền lợi hưu trí định kỳ, doanh nghiệp bảo hiểm phải bảo đảm:",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_167_1",
+        "content": "Quyền lợi hưu trí được chi trả định kỳ đến khi người được bảo hiểm tử vong hoặc tối thiểu 10 năm, tùy theo thỏa thuận tại hợp đồng bảo hiểm.",
+        "questionId": "G22_167",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_167_2",
+        "content": "Doanh nghiệp bảo hiểm và bên mua bảo hiểm thỏa thuận về mức hưởng quyền lợi hưu trí mỗi kỳ, số kỳ nhận quyền lợi hưu trí.",
+        "questionId": "G22_167",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_167_3",
+        "content": "Tính lãi tích luỹ từ phần quyền lợi hưu trí chưa chi trả cho bên mua bảo hiểm, nhưng không thấp hơn lãi suất đầu tư cam kết tối thiểu thỏa thuận tại hợp đồng bảo hiểm.",
+        "questionId": "G22_167",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_167_4",
+        "content": "A, B đúng.",
+        "questionId": "G22_167",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_167_5",
+        "content": "A, B, C đúng.",
+        "questionId": "G22_167",
+        "isRightAnswer": true
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_168",
+    "content": "Phát biểu nào sau đây là đúng nhất về quỹ hưu trí tự nguyện:",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_168_1",
+        "content": "Quỹ hưu trí tự nguyện được hình thành từ nguồn đóng góp của doanh nghiệp bảo hiểm nhân thọ.",
+        "questionId": "G22_168",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_168_2",
+        "content": "Khi thiết lập quỹ hưu trí tự nguyện, doanh nghiệp bảo hiểm phải sử dụng quỹ chủ sở hữu đóng góp vào quỹ hưu trí tự nguyện không thấp hơn 200 tỷ đồng Việt Nam và phải duy trì tối thiểu 200 tỷ đồng Việt Nam tại quỹ này.",
+        "questionId": "G22_168",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_168_3",
+        "content": "Toàn bộ tài sản hình thành từ nguồn phí bảo hiểm phân bổ cho chủ hợp đồng của quỹ hưu trí tự nguyện thuộc về người được bảo hiểm và doanh nghiệp bảo hiểm.",
+        "questionId": "G22_168",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_168_4",
+        "content": "Doanh nghiệp bảo hiểm được sử dụng tài sản của quỹ hưu trí tự nguyện để chi trả các khoản tiền phạt do vi phạm pháp luật, các khoản nợ và các giao dịch không liên quan đến quỹ hưu trí tự nguyện.",
+        "questionId": "G22_168",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_169",
+    "content": "Phát biểu nào sau đây là sai về hạn mức đầu tư của quỹ hưu trí tự nguyện:",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_169_1",
+        "content": "Gửi tiền tại tổ chức tín dụng: không hạn chế nhưng tối đa 20% tổng giá trị tài sản đầu tư của quỹ hưu trí tự nguyện vào một tổ chức tín dụng.",
+        "questionId": "G22_169",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_169_2",
+        "content": "Công cụ nợ của Chính phủ: không hạn chế và bảo đảm tối thiểu 40% tổng giá trị tài sản đầu tư của quỹ hưu trí tự nguyện.",
+        "questionId": "G22_169",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_169_3",
+        "content": "Cổ phiếu (bao gồm cổ phiếu của các công ty chứng khoán, công ty tài chính, công ty cho thuê tài chính), trái phiếu doanh nghiệp không có bảo đảm, góp vốn vào các doanh nghiệp khác: tối đa 20% tổng giá trị tài sản đầu tư của quỹ hưu trí tự nguyện.",
+        "questionId": "G22_169",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_169_4",
+        "content": "Đầu tư vào cổ phiếu đã phát hành của một doanh nghiệp, trái phiếu doanh nghiệp: tối đa 5% khối lượng mỗi lần phát hành và tối đa 5% tổng giá trị tài sản đầu tư của quỹ hưu trí tự nguyện.",
+        "questionId": "G22_169",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_170",
+    "content": "Phát biểu nào sau đây là đúng khi nói về phí ban đầu của các sản phẩm bảo hiểm liên kết đầu tư:",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_170_1",
+        "content": "Phí ban đầu của các sản phẩm bảo hiểm liên kết đầu tư đóng phí một lần là 10% phí bảo hiểm đóng một lần.",
+        "questionId": "G22_170",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_170_2",
+        "content": "Phí ban đầu đối với phần phí bảo hiểm đóng thêm không vượt quá 1,5% phí bảo hiểm đóng thêm của từng năm hợp đồng và chỉ được tính trong 10 năm đầu của hợp đồng bảo hiểm.",
+        "questionId": "G22_170",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_170_3",
+        "content": "Đối với phí ban đầu của các sản phẩm bảo hiểm liên kết đầu tư đóng phí định kỳ, tỷ lệ phí ban đầu/phí bảo hiểm cơ bản năm của 05 năm hợp đồng đầu tiên không vượt quá 70%.",
+        "questionId": "G22_170",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_170_4",
+        "content": "A, B, C đúng.",
+        "questionId": "G22_170",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_171",
+    "content": "Phát biểu nào sau đây là đúng về phí ban đầu của sản phẩm bảo hiểm hưu trí:",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_171_1",
+        "content": "Phí ban đầu của sản phẩm bảo hiểm hưu trí không vượt quá 10% tổng phí bảo hiểm thu được trong năm tài chính. Phí ban đầu đối với phần phí bảo hiểm đóng thêm không vượt quá 1,5% phí bảo hiểm đóng thêm của từng năm hợp đồng và trong 15 năm đầu của hợp đồng bảo hiểm.",
+        "questionId": "G22_171",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_171_2",
+        "content": "Phí ban đầu của sản phẩm bảo hiểm hưu trí không vượt quá 10% tổng phí bảo hiểm thu được trong năm tài chính. Phí ban đầu đối với phần phí bảo hiểm đóng thêm không vượt quá 1% phí bảo hiểm đóng thêm của từng năm hợp đồng và trong 10 năm đầu của hợp đồng bảo hiểm.",
+        "questionId": "G22_171",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_171_3",
+        "content": "Phí ban đầu của sản phẩm bảo hiểm hưu trí không vượt quá 5% tổng phí bảo hiểm thu được trong năm tài chính. Phí ban đầu đối với phần phí bảo hiểm đóng thêm không vượt quá 1,5% phí bảo hiểm đóng thêm của từng năm hợp đồng và trong 10 năm đầu của hợp đồng bảo hiểm.",
+        "questionId": "G22_171",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_171_4",
+        "content": "Phí ban đầu của sản phẩm bảo hiểm hưu trí không vượt quá 5% tổng phí bảo hiểm thu được trong năm tài chính. Phí ban đầu đối với phần phí bảo hiểm đóng thêm không vượt quá 1,5% phí bảo hiểm đóng thêm của từng năm hợp đồng và trong 15 năm đầu của hợp đồng bảo hiểm.",
+        "questionId": "G22_171",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_172",
+    "content": "Phát biểu nào sau đây là đúng với phí quản lý quỹ của quỹ liên kết chung và quỹ hưu trí tự nguyện:",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_172_1",
+        "content": "Phí quản lý quỹ của quỹ liên kết chung và quỹ hưu trí tự nguyện không vượt quá 2%/năm.",
+        "questionId": "G22_172",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_172_2",
+        "content": "Phí quản lý quỹ của quỹ liên kết chung và quỹ hưu trí tự nguyện không vượt quá 2,5%/năm.",
+        "questionId": "G22_172",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_172_3",
+        "content": "Phí quản lý quỹ của quỹ liên kết chung không vượt quá 2,5%/năm, phí quản lý quỹ của quỹ hưu trí tự nguyện không vượt quá 2%/năm.",
+        "questionId": "G22_172",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_172_4",
+        "content": "Phí quản lý quỹ của quỹ liên kết chung không vượt quá 2%/năm, phí quản lý quỹ của quỹ hưu trí tự nguyện không vượt quá 2,5%/năm.",
+        "questionId": "G22_172",
+        "isRightAnswer": false
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_173",
+    "content": "Phát biểu nào sau đây là đúng nhất về phí bảo hiểm và các khoản phí tính cho bên mua bảo hiểm của sản phẩm bảo hiểm liên kết chung:",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_173_1",
+        "content": "Phí bảo hiểm và các khoản phí tính cho bên mua bảo hiểm phải tương ứng với điều kiện và trách nhiệm bảo hiểm, đảm bảo được các quyền lợi đã cam kết với bên mua bảo hiểm.",
+        "questionId": "G22_173",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_173_2",
+        "content": "Phí bảo hiểm và các khoản phí tính cho bên mua bảo hiểm phải bảo đảm tính hợp lý, công bằng với bên mua bảo hiểm.",
+        "questionId": "G22_173",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_173_3",
+        "content": "Phí bảo hiểm phải được xác định dựa trên cơ sở tuổi, giới tính, tình trạng sức khỏe và các đặc điểm khác của người được bảo hiểm, phù hợp với đặc trưng của từng sản phẩm.",
+        "questionId": "G22_173",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_173_4",
+        "content": "A, B, C đúng",
+        "questionId": "G22_173",
+        "isRightAnswer": true
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_174",
+    "content": "Theo pháp Luật Việt Nam về kinh doanh bảo hiểm, phát biểu nào sau đây là đúng nhất về căn cứ xác định phí bảo hiểm của sản phẩm bảo hiểm sức khỏe?",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_174_1",
+        "content": "Tuổi, giới tính của người được bảo hiểm.",
+        "questionId": "G22_174",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_174_2",
+        "content": "Tuổi, giới tính, tình trạng sức khỏe của người được bảo hiểm.",
+        "questionId": "G22_174",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_174_3",
+        "content": "Tuổi, giới tính, tình trạng sức khỏe của bên mua bảo hiểm, phù hợp với đặc trưng của từng sản phẩm.",
+        "questionId": "G22_174",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_174_4",
+        "content": "Tuổi, giới tính, tình trạng sức khỏe và các đặc điểm khác của người được bảo hiểm, phù hợp với đặc trưng của từng sản phẩm.",
+        "questionId": "G22_174",
+        "isRightAnswer": true
+      }
+    ],
+    "score": 1
+  },
+  {
+    "id": "G22_175",
+    "content": "Chọn phương án đúng về cách thức quy định về Loại trừ bảo hiểm:",
+    "groupCode": "G22",
+    "createdDate": "0001-01-01T00:00:00",
+    "details": [
+      {
+        "id": "G22_175_1",
+        "content": "Loại trừ bảo hiểm được tự động thực hiện theo tập quán quốc tế.",
+        "questionId": "G22_175",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_175_2",
+        "content": "Loại trừ bảo hiểm được áp dụng theo quy tắc, điều khoản bảo hiểm do Hiệp hội bảo hiểm Việt Nam ban hành.",
+        "questionId": "G22_175",
+        "isRightAnswer": false
+      },
+      {
+        "id": "G22_175_3",
+        "content": "Loại trừ bảo hiểm được căn cứ theo các điều kiện, điều khoản quy định trong Quy tắc bảo hiểm và các điều khoản sửa đổi, bổ sung (nếu có) kèm theo hợp đồng bảo hiểm.",
+        "questionId": "G22_175",
+        "isRightAnswer": true
+      },
+      {
+        "id": "G22_175_4",
+        "content": "A, B, C đúng.",
+        "questionId": "G22_175",
+        "isRightAnswer": false
+      }
+    ]
+  },
+  {
     "id": "G23_1",
     "content": "Theo Luật Kinh doanh bảo hiểm, trong quá trình thực hiện hợp đồng, hợp đồng bảo hiểm vô hiệu do bên mua bảo hiểm không CÒN “Quyền lợi có thể được bảo hiểm” là: ",
     "groupCode": "G23",
