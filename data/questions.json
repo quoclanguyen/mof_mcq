@@ -5514,7 +5514,7 @@
         "id": "G22_170_2",
         "content": "Phí ban đầu đối với phần phí bảo hiểm đóng thêm không vượt quá 1,5% phí bảo hiểm đóng thêm của từng năm hợp đồng và chỉ được tính trong 10 năm đầu của hợp đồng bảo hiểm.",
         "questionId": "G22_170",
-        "isRightAnswer": true
+        "isRightAnswer": false
       },
       {
         "id": "G22_170_3",
@@ -5526,7 +5526,7 @@
         "id": "G22_170_4",
         "content": "A, B, C đúng.",
         "questionId": "G22_170",
-        "isRightAnswer": false
+        "isRightAnswer": true
       }
     ],
     "score": 1
